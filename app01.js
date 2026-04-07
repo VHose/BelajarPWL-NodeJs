@@ -1,0 +1,12 @@
+const value = 12
+const name = "Valentino Hose"
+console.log("Hello, World!")
+console.log(value)
+console.log(`Nama saya ${name}`)
+
+
+const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ornare malesuada consectetur. Vestibulum posuere consequat ex, at lacinia turpis posuere ac. Vestibulum nec dolor massa. Sed porta vestibulum mauris, quis blandit enim rutrum id. Nullam molestie tellus sapien, eget tempor ligula interdum et. In eget varius lectus. Ut laoreet dui eget est cursus, ut consectetur nisi scelerisque. Duis sollicitudin congue libero vel ultrices. Donec vitae ipsum efficitur metus facilisis laoreet at non massa. In tempor mattis consectetur. Phasellus nec ultrices neque. Duis elementum eros eu ex consectetur, sit amet fermentum ante scelerisque. Curabitur placerat sapien quis mi viverra feugiat. Phasellus risus nisl, tristique id leo vitae, laoreet lacinia velit."
+
+const fs = require('fs')
+fs.mkdirSync("public")
+fs.writeFileSync("public/hello.txt",text)

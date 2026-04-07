@@ -1,0 +1,15 @@
+# Dependency
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables (Sangat Penting!)
+.env
+.env.local
+
+# OS Metadata
+.DS_Store
+Thumbs.db
